@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { MdKeyboardArrowDown } from 'react-icons/md'
 function NavBar() {
     return (
-        <div className='bg-white sticky top-0 z-50 border-t-2 border-t-gray-200 py-4'>
+        <div className='bg-white shadow-md sticky top-0 z-50 border-t-2 border-t-gray-200 py-4'>
             <div className='w-full lg:w-[70%] mx-auto flex items-center px-4  gap-14'>
                 <div className='text-base  text-gray-800 uppercase font-semibold flex items-center gap-3 h-full border-r-2 border-r-gray-200 pr-4'>
                     <PiCirclesFourLight className='text-[#07a698]' />
