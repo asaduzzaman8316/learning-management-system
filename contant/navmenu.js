@@ -11,26 +11,21 @@ export const navmenu = [
     },
     {
         id:3,
-        name:'pages',
-        src:'/pages'
-    },
-    {
-        id:4,
-        name:'blog',
-        src:'/blog'
-    },
-    {
-        id:5,
-        name:'gallery',
-        src:'/gallery'
-    },
-    {
-        id:6,
         name:'shop',
         src:'/shop'
     },
     {
-        id:7,
+        id:4,
+        name:'pages',
+        src:'/pages'
+    },
+    {
+        id:5,
+        name:'blog',
+        src:'/blog'
+    },
+    {
+        id:6,
         name:'contact',
         src:'/contact'
     }
