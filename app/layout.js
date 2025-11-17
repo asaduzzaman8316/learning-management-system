@@ -1,9 +1,10 @@
-import { Inter } from "next/font/google";
+import { Outfit } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/share/Header/Header";
 import Footer from "@/components/share/Footer/Footer";
+import NavBar from "@/components/share/Header/NavBar";
 
-const font = Inter({
+const font = Outfit({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   subsets: ['latin']
 });
@@ -19,9 +20,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${font.className} antialiased`}
+        className={`${font.className} antialiased `}
       >
         <Header />
+        <NavBar />
         {children}
         <Footer />
       </body>

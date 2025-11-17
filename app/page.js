@@ -3,7 +3,7 @@ import Hero from "./HomeComponents/Hero";
 
 export default function Home() {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-x-clip">
       <Hero />
     </div>
   );

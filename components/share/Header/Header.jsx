@@ -1,12 +1,13 @@
 import React from 'react'
-import DestopNav from './DestopNav'
-import MobileNav from './MobileNav'
+import TopHeader from './TopHeader'
+import CenterHeader from './CenterHeader'
+import NavBar from './NavBar'
 
 function Header() {
     return (
-        <div >
-            <DestopNav />
-            <MobileNav />
+        <div className=''>
+            <TopHeader />
+            <CenterHeader />
         </div>
     )
 }
