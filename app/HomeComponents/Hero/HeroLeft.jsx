@@ -1,20 +1,17 @@
 import Link from 'next/link'
 import React from 'react'
-import { BsFillLightningChargeFill } from 'react-icons/bs'
 import { IoTriangle } from 'react-icons/io5'
 import hero1 from '@/app/assets/hero-author-1.png'
 import hero2 from '@/app/assets/hero-author-2.png'
 import hero3 from '@/app/assets/hero-author-3.png'
 import hero4 from '@/app/assets/hero-author-4.png'
 import Image from 'next/image'
+import Heading from '@/components/share/Heading'
 
 function HeroLeft() {
     return (
         <div className='space-y-6'>
-            <div className='bg-white pl-1 pr-2 py-1.5 w-fit flex items-center gap-3 rounded-full '>
-                <div className='size-7 flex items-center justify-center bg-[#daf2f0] text-green-600 rounded-full'><BsFillLightningChargeFill /></div>
-                Welcome to Online Education
-            </div>
+            <Heading name={'Welcome to Online Education'} />
             <h1 className='text-5xl font-semibold text-gray-800'>Start Learning from <br /> the world&apos;s <span className='text-[#07a698] font-normal'>best insttitutions</span></h1>
             <div className='flex items-center gap-4'>
                 <Link
