@@ -1,0 +1,67 @@
+[
+  {
+    "id": "1",
+    "title": "Business Management",
+    "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-1.png"
+  },
+  {
+    "id": "2",
+    "title": "Arts & Design",
+    "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-2.png"
+  },
+  {
+    "id": "3",
+    "title": "Personal Development",
+    "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-3.png"
+  },
+  {
+    "id": "4",
+    "title": "Health & Fitness",
+    "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-4.png" 
+  },
+  {
+    "id": "5",
+    "title": "Marketing",
+    "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-5.png" 
+  },
+  {
+    "id": "6",
+    "title": "Business & Finance",
+    "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-6.png"
+  },
+  {
+    "id": "7",
+    "title": "Computer Science",
+    "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-7.png" 
+  },
+  {
+    "id": "8",
+    "title": "Video & Photography",
+    "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-2.png"
+  },
+  {
+    "id": "9",
+    "title": "Data Science",
+    "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-4.png"
+  },
+  {
+    "id": "10",
+    "title": "IT Startup Agency",
+    "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-1.png" 
+  },
+  {
+    "id": "11",
+    "title": "Software Company",
+    "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-2.png"
+  },
+  {
+    "id": "12",
+    "title": "High-Tech Company",
+    "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-3.png"
+  },
+  {
+    "id": "13",
+    "title": "3D Gaming Studio",
+    "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-4.png" 
+  }
+]

@@ -16,12 +16,12 @@ function SectionLeft() {
                         className=' border-2 rounded-tr-[80px] rounded-bl-[80px] p-1.5 border-gray-300'
                     />
                 </div>
-                <div className='flex items-center text-white bg-[#07a698] gap-5'>
-                    <div className='size-8  bg-white flex justify-center items-center text-xl text-[#07a698] '>
+                <div className='flex p-6 mt-3 rounded-bl-[60px] rounded-tr-[60px] items-center text-white bg-[#07a698] gap-5'>
+                    <div className='size-12 rounded-full  bg-white flex justify-center items-center text-xl text-[#07a698] '>
                         <FiPhoneCall />
                     </div>
                     <div>
-                        <p className='text-xl uppercase tracking-tight leading-6'>Online support</p>
+                        <p className=' uppercase tracking-tight leading-6'>Online support</p>
                         <p className='text-2xl font-semibold'>+256 152 3659</p>
                     </div>
                 </div>
