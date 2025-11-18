@@ -1,0 +1,342 @@
+[
+  {
+    "id": 1,
+    "course_title": "Modern JavaScript & React Complete Guide (2025)",
+    "category": "Computer Science",
+    "category_id": 7,
+    "lessons": 450,
+    "students_enrolled": "85.4k",
+    "total_views": "145k",
+    "price_label": "Paid",
+    "price": 19.99,
+    "rating": 4.7,
+    "course_image": "https://html.rrdevs.net/edcare/assets/img/images/course-img-1.png",
+    "instructor": {
+      "name": "Maximilian ",
+      "image": "https://html.rrdevs.net/edcare/assets/img/images/course-author-1.png"
+    }
+  },
+  {
+    "id": 2,
+    "course_title": "The Complete Digital Marketing Masterclass",
+    "category": "Marketing",
+    "category_id": 5,
+    "lessons": 150,
+    "students_enrolled": "112.1k",
+    "total_views": "210k",
+    "price_label": "Paid",
+    "price": 14.99,
+    "rating": 4.6,
+    "course_image": "https://html.rrdevs.net/edcare/assets/img/images/course-img-2.png",
+    "instructor": {
+      "name": "Rob Percival",
+      "image": "https://html.rrdevs.net/edcare/assets/img/images/course-author-2.png"
+    }
+  },
+  {
+    "id": 3,
+    "course_title": "Data Science and Machine Learning with Python",
+    "category": "Data Science",
+    "category_id": 9,
+    "lessons": 300,
+    "students_enrolled": "95.8k",
+    "total_views": "180k",
+    "price_label": "Paid",
+    "price": 24.99,
+    "rating": 4.8,
+    "course_image": "https://html.rrdevs.net/edcare/assets/img/images/course-img-3.png",
+    "instructor": {
+      "name": "Jose Portilla",
+      "image": "https://html.rrdevs.net/edcare/assets/img/images/course-author-3.png"
+    }
+  },
+  {
+    "id": 4,
+    "course_title": "Mastering Emotional Intelligence & Leadership",
+    "category": "Personal Development",
+    "category_id": 3,
+    "lessons": 75,
+    "students_enrolled": "32.5k",
+    "total_views": "75k",
+    "price_label": "Paid",
+    "price": 12.99,
+    "rating": 4.5,
+    "course_image": "https://html.rrdevs.net/edcare/assets/img/images/course-img-4.png",
+    "instructor": {
+      "name": "Vanessa Van ",
+      "image": "https://html.rrdevs.net/edcare/assets/img/images/course-author-4.png"
+    }
+  },
+  {
+    "id": 5,
+    "course_title": "Introduction to UX/UI Design (Free Certification)",
+    "category": "Arts & Design",
+    "category_id": 2,
+    "lessons": 80,
+    "students_enrolled": "250.3k",
+    "total_views": "450k",
+    "price_label": "Free",
+    "price": 0.00,
+    "rating": 4.4,
+    "course_image": "https://html.rrdevs.net/edcare/assets/img/images/course-img-5.png",
+    "instructor": {
+      "name": "Google Design",
+      "image": "https://html.rrdevs.net/edcare/assets/img/images/course-author-5.png"
+    }
+  },
+  {
+    "id": 6,
+    "course_title": "Complete MBA Course: Business Strategy & Management",
+    "category": "Business Management",
+    "category_id": 1,
+    "lessons": 180,
+    "students_enrolled": "67.2k",
+    "total_views": "110k",
+    "price_label": "Paid",
+    "price": 29.99,
+    "rating": 4.7,
+    "course_image": "https://plus.unsplash.com/premium_photo-1683749808307-e5597ac69f1e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "instructor": {
+      "name": "Chris Haroun",
+      "image": "https://html.rrdevs.net/edcare/assets/img/images/course-author-6.png"
+    }
+  },
+  {
+    "id": 7,
+    "course_title": "HTML, CSS, and Bootstrap Fundamentals",
+    "category": "Computer Science",
+    "category_id": 7,
+    "lessons": 120,
+    "students_enrolled": "155.9k",
+    "total_views": "280k",
+    "price_label": "Free",
+    "price": 0.00,
+    "rating": 4.3,
+    "course_image": "https://plus.unsplash.com/premium_photo-1661872817492-fd0c30404d74?q=80&w=1487&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "instructor": {
+      "name": "Jonas ",
+      "image": "https://html.rrdevs.net/edcare/assets/img/images/course-author-1.png"
+    }
+  },
+  {
+    "id": 8,
+    "course_title": "Financial Analysis and Investment Banking",
+    "category": "Business & Finance",
+    "category_id": 6,
+    "lessons": 210,
+    "students_enrolled": "48.6k",
+    "total_views": "95k",
+    "price_label": "Paid",
+    "price": 34.99,
+    "rating": 4.8,
+    "course_image": "https://plus.unsplash.com/premium_photo-1663045701964-165b59ca1778?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "instructor": {
+      "name": "Professor Andrew",
+      "image": "https://html.rrdevs.net/edcare/assets/img/images/course-author-2.png"
+    }
+  },
+  {
+    "id": 9,
+    "course_title": "Photography Masterclass: From Beginner to Pro",
+    "category": "Video & Photography",
+    "category_id": 8,
+    "lessons": 135,
+    "students_enrolled": "78.0k",
+    "total_views": "150k",
+    "price_label": "Paid",
+    "price": 16.99,
+    "rating": 4.6,
+    "course_image": "https://plus.unsplash.com/premium_photo-1674389991678-0836ca77c7f7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "instructor": {
+      "name": "Phil Ebiner",
+      "image": "https://html.rrdevs.net/edcare/assets/img/images/course-author-3.png"
+    }
+  },
+  {
+    "id": 10,
+    "course_title": "High-Intensity Interval Training (HIIT) for Weight Loss",
+    "category": "Health & Fitness",
+    "category_id": 4,
+    "lessons": 60,
+    "students_enrolled": "55.4k",
+    "total_views": "80k",
+    "price_label": "Free",
+    "price": 0.00,
+    "rating": 4.5,
+    "course_image": "https://images.unsplash.com/photo-1511909525232-61113c912358?q=80&w=1412&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "instructor": {
+      "name": "Chloe Ting",
+      "image": "https://html.rrdevs.net/edcare/assets/img/images/course-author-4.png"
+    }
+  },
+  {
+    "id": 11,
+    "course_title": "Cyber Security and Ethical Hacking Bootcamp",
+    "category": "IT Startup Agency",
+    "category_id": 10,
+    "lessons": 350,
+    "students_enrolled": "52.7k",
+    "total_views": "135k",
+    "price_label": "Paid",
+    "price": 27.99,
+    "rating": 4.9,
+    "course_image": "https://images.unsplash.com/photo-1621856625680-282ec3a17db8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "instructor": {
+      "name": "Zaid Sabih",
+      "image": "https://html.rrdevs.net/edcare/assets/img/images/course-author-5.png"
+    }
+  },
+  {
+    "id": 12,
+    "course_title": "Advanced SQL and Database Management",
+    "category": "Computer Science",
+    "category_id": 7,
+    "lessons": 90,
+    "students_enrolled": "41.1k",
+    "total_views": "72k",
+    "price_label": "Paid",
+    "price": 11.99,
+    "rating": 4.5,
+    "course_image": "https://html.rrdevs.net/edcare/assets/img/images/course-img-5.png",
+    "instructor": {
+      "name": "Colt Steele",
+      "image": "https://html.rrdevs.net/edcare/assets/img/images/course-author-6.png"
+    }
+  },
+  {
+    "id": 13,
+    "course_title": "Drawing Masterclass: Pencil, Ink, and Digital",
+    "category": "Arts & Design",
+    "category_id": 2,
+    "lessons": 160,
+    "students_enrolled": "38.9k",
+    "total_views": "60k",
+    "price_label": "Paid",
+    "price": 17.99,
+    "rating": 4.7,
+    "course_image": "https://images.unsplash.com/photo-1644313396863-a63a13caa511?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "instructor": {
+      "name": "Brent Eviston",
+      "image": "https://html.rrdevs.net/edcare/assets/img/images/course-author-1.png"
+    }
+  },
+  {
+    "id": 14,
+    "course_title": "Venture Capital and Startup Funding Strategy",
+    "category": "Business & Finance",
+    "category_id": 6,
+    "lessons": 110,
+    "students_enrolled": "22.3k",
+    "total_views": "45k",
+    "price_label": "Paid",
+    "price": 39.99,
+    "rating": 4.8,
+    "course_image": "https://plus.unsplash.com/premium_photo-1723802518412-a1118f0077b1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "instructor": {
+      "name": "Combinator Team",
+      "image": "https://html.rrdevs.net/edcare/assets/img/images/course-author-2.png"
+    }
+  },
+  {
+    "id": 15,
+    "course_title": "Foundational Python for Data Analytics",
+    "category": "Data Science",
+    "category_id": 9,
+    "lessons": 100,
+    "students_enrolled": "188.4k",
+    "total_views": "350k",
+    "price_label": "Free",
+    "price": 0.00,
+    "rating": 4.4,
+    "course_image": "https://images.unsplash.com/photo-1755211431607-fa2f5e59d1ad?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "instructor": {
+      "name": "IBM Skills Network",
+      "image": "https://html.rrdevs.net/edcare/assets/img/images/course-author-3.png"
+    }
+  },
+  {
+    "id": 16,
+    "course_title": "The Art of Public Speaking and Confident Communication",
+    "category": "Personal Development",
+    "category_id": 3,
+    "lessons": 50,
+    "students_enrolled": "70.1k",
+    "total_views": "120k",
+    "price_label": "Paid",
+    "price": 9.99,
+    "rating": 4.5,
+    "course_image": "https://plus.unsplash.com/premium_photo-1661940814738-5a028d647d3a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "instructor": {
+      "name": "Sarah Jones",
+      "image": "https://html.rrdevs.net/edcare/assets/img/images/course-author-4.png"
+    }
+  },
+  {
+    "id": 17,
+    "course_title": "SEO 2025: Search Engine Optimization Complete Course",
+    "category": "Marketing",
+    "category_id": 5,
+    "lessons": 190,
+    "students_enrolled": "62.5k",
+    "total_views": "105k",
+    "price_label": "Paid",
+    "price": 18.99,
+    "rating": 4.6,
+    "course_image": "https://images.unsplash.com/photo-1657812160299-6b656decd5b1?q=80&w=1467&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "instructor": {
+      "name": "Moz Academy",
+      "image": "https://html.rrdevs.net/edcare/assets/img/images/course-author-5.png"
+    }
+  },
+  {
+    "id": 18,
+    "course_title": "Full-Stack Web Development with MERN Stack",
+    "category": "Software Company",
+    "category_id": 11,
+    "lessons": 400,
+    "students_enrolled": "58.3k",
+    "total_views": "115k",
+    "price_label": "Paid",
+    "price": 21.99,
+    "rating": 4.7,
+    "course_image": "https://images.unsplash.com/photo-1649451844931-57e22fc82de3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "instructor": {
+      "name": "Academind",
+      "image": "https://html.rrdevs.net/edcare/assets/img/images/course-author-6.png"
+    }
+  },
+  {
+    "id": 19,
+    "course_title": "Introduction to 3D Game Development with Unity & C#",
+    "category": "3D Gaming Studio",
+    "category_id": 13,
+    "lessons": 280,
+    "students_enrolled": "75.6k",
+    "total_views": "140k",
+    "price_label": "Paid",
+    "price": 25.99,
+    "rating": 4.6,
+    "course_image": "https://plus.unsplash.com/premium_photo-1711583225564-22dc4cb2d729?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "instructor": {
+      "name": "Rick Davidson",
+      "image": "https://html.rrdevs.net/edcare/assets/img/images/course-author-1.png"
+    }
+  },
+  {
+    "id": 20,
+    "course_title": "Project Management Professional (PMP) Certification Prep",
+    "category": "Business Management",
+    "category_id": 1,
+    "lessons": 140,
+    "students_enrolled": "44.9k",
+    "total_views": "88k",
+    "price_label": "Paid",
+    "price": 15.99,
+    "rating": 4.5,
+    "course_image": "https://plus.unsplash.com/premium_photo-1681074963670-2110c58f4c24?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "instructor": {
+      "name": "Joseph Phillips",
+      "image": "https://html.rrdevs.net/edcare/assets/img/images/course-author-2.png"
+    }
+  }
+]

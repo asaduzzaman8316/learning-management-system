@@ -8,6 +8,18 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'html.rrdevs.net'
+      },
+      {
+        protocol: 'https',
+        hostname: 'source.unsplash.com'
+      },
+      {
+        protocol: 'https',
+        hostname: 'plus.unsplash.com'
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com'
       }
     ]
   }

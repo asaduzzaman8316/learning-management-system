@@ -2,66 +2,79 @@
   {
     "id": "1",
     "title": "Business Management",
+    "main_tag": "Business",
     "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-1.png"
   },
   {
     "id": "2",
     "title": "Arts & Design",
+    "main_tag": "Design",
     "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-2.png"
   },
   {
     "id": "3",
     "title": "Personal Development",
+    "main_tag": "Personal",
     "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-3.png"
   },
   {
     "id": "4",
     "title": "Health & Fitness",
+    "main_tag": "Fitness",
     "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-4.png" 
   },
   {
     "id": "5",
     "title": "Marketing",
+    "main_tag": "Marketing",
     "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-5.png" 
   },
   {
     "id": "6",
     "title": "Business & Finance",
+    "main_tag": "Finance",
     "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-6.png"
   },
   {
     "id": "7",
     "title": "Computer Science",
+    "main_tag": "Coding",
     "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-7.png" 
   },
   {
     "id": "8",
     "title": "Video & Photography",
+    "main_tag": "Media",
     "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-2.png"
   },
   {
     "id": "9",
     "title": "Data Science",
+    "main_tag": "Data",
     "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-4.png"
   },
   {
     "id": "10",
     "title": "IT Startup Agency",
+    "main_tag": "Startup",
     "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-1.png" 
   },
   {
     "id": "11",
     "title": "Software Company",
+    "main_tag": "Software",
     "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-2.png"
   },
   {
     "id": "12",
     "title": "High-Tech Company",
+    "main_tag": "Tech",
     "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-3.png"
   },
   {
     "id": "13",
     "title": "3D Gaming Studio",
+    "main_tag": "Gaming",
     "icon": "https://html.rrdevs.net/edcare/assets/img/icon/category-4.png" 
   }
 ]
