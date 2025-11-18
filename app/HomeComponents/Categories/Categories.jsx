@@ -14,7 +14,7 @@ async function Categories() {
         <div className='bg-[#f2f4f7] '>
             <div className='lg:w-[70%] px-4 flex flex-col items-center justify-center py-16 mx-auto w-full gap-5'>
                 <Heading name={'Our Course Categories'} />
-                <Heading2 name={'Select The Inustry Where You Want To Learn'} />
+                <Heading2 color={'text-gray-700'}  name={'Select The Inustry Where You Want To Learn'} />
                 <div className='flex flex-wrap items-center justify-center gap-10'>
                     {
                         category.map(item => {

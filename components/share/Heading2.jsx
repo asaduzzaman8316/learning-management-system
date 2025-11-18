@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Heading2({name}) {
+function Heading2({name, color}) {
   return (
     <div>
-      <h1 className='text-4xl font-semibold text-gray-700'>{name}</h1>
+      <h1 className={`text-4xl font-semibold ${color}`}>{name}</h1>
     </div>
   )
 }
