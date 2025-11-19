@@ -28,7 +28,7 @@ function CenterHeader() {
             <option className='text-gray-600 py-2' value="">Furniture</option>
           </select></div>
         <input type='search' className='outline-none' placeholder='Search here' />
-        <Button py={'py-1'} logo={<IoMdSearch />} name={'Search'} />
+        <Button py={'py-2'} logo={<IoMdSearch />} name={'Search'} />
       </div>
 
       <div className='flex items-center gap-4'>
