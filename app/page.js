@@ -4,6 +4,7 @@ import SectionSecond from "./HomeComponents/Over10Years/SectionSecond";
 import Categories from "./HomeComponents/Categories/Categories";
 import Explorer from "./HomeComponents/Explorer/Explorer";
 import Courses from "./HomeComponents/Courses/Courses";
+import Status from "./HomeComponents/Status/Status";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Categories />
       <Explorer />
       <Courses/>
+      <Status/>
     </div>
   );
 }
