@@ -9,6 +9,7 @@ import Question from "./HomeComponents/QuestionSection/Question";
 import Instructors from "./HomeComponents/InStructors/Instructors";
 import Journey from "./HomeComponents/Journey/Journey";
 import Newsletter from "./HomeComponents/Newslatter/Newsletter";
+import Blog from "./HomeComponents/Blogs/Blog";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Instructors />
       <Journey />
       <Newsletter />
+      <Blog />
     </div>
   );
 }

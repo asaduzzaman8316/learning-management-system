@@ -1,6 +1,5 @@
 import React from 'react'
 import bg from '@/app/assets/request-bg.png'
-import shape1 from '@/app/assets/req-shape-1.png'
 import imag from '@/app/assets/request-img-1.png'
 import Image from 'next/image'
 import NewsRight from './NewsRight'
