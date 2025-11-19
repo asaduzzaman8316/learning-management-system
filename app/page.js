@@ -7,6 +7,7 @@ import Courses from "./HomeComponents/Courses/Courses";
 import Status from "./HomeComponents/Status/Status";
 import Question from "./HomeComponents/QuestionSection/Question";
 import Instructors from "./HomeComponents/InStructors/Instructors";
+import Journey from "./HomeComponents/Journey/Journey";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Status />
       <Question />
       <Instructors />
+      <Journey />
     </div>
   );
 }
