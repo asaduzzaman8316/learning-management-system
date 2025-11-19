@@ -36,7 +36,7 @@ function CategoryShow() {
                     ))
                 }
             </div>
-            <CourseCard cid={cid} />
+            <CourseCard cid={cid}  range={3}/>
         </div>
     )
 }
