@@ -9,7 +9,7 @@ import { FaRegLightbulb } from 'react-icons/fa'
 
 function JourneyRight() {
   return (
-    <div data-aos='fade-up-left' data-aos-duration='1500' className='space-y-10'>
+    <div data-aos='fade-up-left' data-aos-duration='1500' className='flex flex-col items-center justify-center lg:items-start gap-10'>
       <Heading name={'How We Start Journey'}/>
       <Heading2 name={'We Care About Your LIfe For Better Fauter'} color={'text-gray-800'}/>
       <p className='text-gray-600'>This includes offering personalized feedback, fostering a sense of community through discussion forums and group projects, and providing continuous support to address challenges and improve.</p>

@@ -8,7 +8,7 @@ function JourneyLeft() {
     return (
         <div data-aos='fade-up-right' data-aos-duration='1500' className='flex items-center gap-8 relative '>
             <div>
-                <Image src={image1 } width={300} height={200} alt='image1' className='h-auto w-auto rounded-tl-[80px]' />
+                <Image src={image1 } width={300} height={200} alt='image1' className='lg:h-auto lg:w-auto rounded-tl-[80px]' />
             </div>
             <div className='space-y-6'>
                 <Image src={image2 } width={300} height={100} alt='image2' className='h-auto w-auto rounded-tr-[80px] rounded-bl-[80px]' />

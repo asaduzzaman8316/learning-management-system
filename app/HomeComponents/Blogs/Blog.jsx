@@ -7,11 +7,11 @@ import BlogCard from './BlogCard'
 
 function Blog() {
     return (
-        <div className='py-16 mt-[500px] '>
+        <div className='py-16  '>
             <div className='w-full lg:w-[70%]  mx-auto flex flex-col items-center justify-center gap-10'>
                 <Heading name={'News & Blogs'} />
                 <Heading2 name={'Latest News Updates'} color={'text-gray-800'} />
-                <div className='grid grid-cols-2 top-0 items-center gap-5'>
+                <div className='grid lg:grid-cols-2 top-0 items-center gap-5'>
                     <BlogCard name={"Repurpose mission critical action life items rather total linkage suds"} image={post1} />
                     <BlogCard name={"Strategies for Managing Stress and Preventing Burnout in Education"} image={post2} />
                 </div>

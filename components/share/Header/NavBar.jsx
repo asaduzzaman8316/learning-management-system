@@ -13,21 +13,23 @@ function NavBar() {
                     <PiCirclesFourLight className='text-[#07a698]' />
                     Categories
                 </div>
-                <nav className='   space-x-5 font-medium flex items-center text-gray-900 uppercase  '>
-                    {
-                        navmenu.map(nav => (
-                            <Link
-                                key={nav.id}
-                                href={nav.src}
-                                className={`hover:text-[#07a698] tracking-tighter flex items-center  duration-500 transition-all ${btn === nav.id && 'text-[#07a698]'} leading-6`}
-                                onClick={()=> setBnt(nav.id)}
-                            >
-                                {nav.name}
-                                {nav.id !== 6 && <MdKeyboardArrowDown className='text-2xl font-bold' />}
-                            </Link>
-                        ))
-                    }
-                </nav>
+                <div className='hidden lg:block'>
+                    <nav className=' space-x-5 font-medium flex items-center text-gray-900 uppercase  '>
+                        {
+                            navmenu.map(nav => (
+                                <Link
+                                    key={nav.id}
+                                    href={nav.src}
+                                    className={`hover:text-[#07a698] tracking-tighter flex items-center  duration-500 transition-all ${btn === nav.id && 'text-[#07a698]'} leading-6`}
+                                    onClick={() => setBnt(nav.id)}
+                                >
+                                    {nav.name}
+                                    {nav.id !== 6 && <MdKeyboardArrowDown className='text-2xl font-bold' />}
+                                </Link>
+                            ))
+                        }
+                    </nav>
+                </div>
             </div>
         </div>
     )

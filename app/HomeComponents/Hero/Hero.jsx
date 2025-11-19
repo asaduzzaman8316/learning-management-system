@@ -9,11 +9,11 @@ import heroshape2 from '@/app/assets/hero-shape-3.png'
 function Hero() {
     return (
         <div className='bg-[#eff2f9] relative z-10' >
-            <div className=' w-full grid grid-cols-2 lg:w-[70%] mx-auto px-4 items-center justify-between  py-20'>
+            <div className=' w-full grid grid-cols-1 lg:grid-cols-2 lg:w-[70%] mx-auto px-4 items-center justify-between  py-20'>
                 <HeroLeft />
                 <HeroRight />
             </div>
-            <div className='bg-white px-6 w-fit py-4 rounded-xl absolute top-1/2 -translate-x-14 right-1/3'>
+            <div className='bg-white px-6 w-fit py-4 rounded-xl absolute top-3/5 lg:-translate-x-14 lg:right-1/3'>
                 <p className='text-[#07a698] text-4xl font-semibold '>256+</p>
                 <p className='font-semibold tracking-tight text-gray-700'>CARSHED COURSES</p>
             </div>
@@ -22,7 +22,7 @@ function Hero() {
                 width={200}
                 height={500}
                 alt='hero shapr'
-                className='absolute top-1/3 right-48 animate-bounce-slow '
+                className='absolute top-1/2 right-0 lg:top-1/3 lg:right-48 animate-bounce-slow '
             />
             <Image
                 src={heroshape2}
