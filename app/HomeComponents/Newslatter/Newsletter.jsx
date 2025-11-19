@@ -10,7 +10,7 @@ function Newsletter() {
             <Image src={bg} width={3000} height={500} alt='footer bg' className='h-auto w-auto absolute top-0 left-0' />
             <div className='grid grid-cols-2  gap-10 items-center justify-between absolute top-10 '>
                 <Image src={imag} width={4000} height={1000} alt='request image' className='h-auto w-auto ' />
-                <div>
+                <div data-aos='fade-up-left' data-aos-duration='1500'>
                     <NewsRight />
                 </div>
             </div>

@@ -18,6 +18,7 @@ function Categories() {
                         category.map(item => {
                             return (
                                 <div
+                                data-aos='fade-up' data-aos-duration='1000'
                                     className='border bg-white hover:bg-[#07a698] hover:text-white duration-500 transition-all pl-1 pr-5 py-1.5 rounded-full flex justify-center items-center gap-2 border-gray-100'
                                     key={item.id}>
                                     <div className='size-12 flex items-center justify-center rounded-full bg-gray-100'>

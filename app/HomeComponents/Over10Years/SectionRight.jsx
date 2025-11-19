@@ -7,7 +7,7 @@ import Button from '@/components/share/Button'
 
 function SectionRight() {
   return (
-    <div className='space-y-5'>
+    <div data-aos='fade-up-left' className='space-y-5'>
       <Heading name={'Get More About us'} />
       <h1 className='text-4xl text-gray-700 font-bold '>Over 10 Years in Distant Learning  <br /> for Skill Development</h1>
       <p className='text-gray-500 leading-7'>Compellingly procrastinate equity investd markets with efficient process improvement actualize mission-ceitical partnerships woth integrated prortals. Authoritatively optimixe low-risk high-yiedl metrics and plug-and-play potentialities.</p>

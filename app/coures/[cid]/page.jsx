@@ -15,7 +15,7 @@ async function page({ params }) {
     return (
         <div className='w-full lg:w-[70%] mx-auto px-4 py-20'>
             <div className=' grid grid-cols-12 gap-8'>
-                <div className='border border-gray-200 rounded-2xl shadow-sm col-span-9 p-7'>
+                <div data-aos='fade-up-right' data-aos-duration='1500' className='border border-gray-200 rounded-2xl shadow-sm col-span-9 p-7'>
                     <Image src={course.course_image} width={1000} height={400} alt='course image' className=' rounded-md' />
                     <div className='flex items-center gap-6 py-6 '>
                         <p className='text-white bg-[#07a698] w-fit px-5 rounded-full py-0.5'>Best Seler</p>
@@ -52,7 +52,7 @@ async function page({ params }) {
 
                     </div>
                 </div>
-                <div className=' col-span-3'>
+                <div data-aos='fade-up-left' data-aos-duration='1500' className=' col-span-3'>
                     <AddCart price={course.price} />
                     <CourseInfo course={course} />
                 </div>

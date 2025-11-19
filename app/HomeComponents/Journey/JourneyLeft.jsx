@@ -6,7 +6,7 @@ import image3 from '@/app/assets/content-img-3.png'
 
 function JourneyLeft() {
     return (
-        <div className='flex items-center gap-8 relative '>
+        <div data-aos='fade-up-right' data-aos-duration='1500' className='flex items-center gap-8 relative '>
             <div>
                 <Image src={image1 } width={300} height={200} alt='image1' className='h-auto w-auto rounded-tl-[80px]' />
             </div>

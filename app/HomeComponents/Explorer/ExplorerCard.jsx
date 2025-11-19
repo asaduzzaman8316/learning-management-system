@@ -3,7 +3,8 @@ import React from 'react'
 
 function ExplorerCard({ name, para, icon, image }) {
     return (
-        <div className='relative '>
+        <div data-aos='zoom-in' data-aos-duration='1000'
+         className='relative '>
             <div className='flex flex-col items-center px-16 gap-5 '>
                 <Image
                     className='h-auto w-auto'

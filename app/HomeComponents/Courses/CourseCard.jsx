@@ -16,7 +16,7 @@ function CourseCard({ cid , range}) {
         <div className='grid grid-cols-3 items-center gap-5 py-16'>
             {
                 filterdata.slice(0, range).map(item => (
-                    <div key={item.id} className='bg-white p-6 rounded-2xl border border-gray-200'>
+                    <div data-aos='fade-up' data-aos-delay={`300 * ${item.id}`} key={item.id} className='bg-white p-6 rounded-2xl border border-gray-200'>
                         <div className='overflow-hidden mx-auto rounded-2xl h-fit w-fit'>
                             <Image
                                 className='rounded-2xl object-cover h-auto w-auto mx-auto hover:scale-105 duration-500 transition-all'

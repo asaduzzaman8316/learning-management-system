@@ -10,7 +10,7 @@ import Heading from '@/components/share/Heading'
 
 function HeroLeft() {
     return (
-        <div className='space-y-6'>
+        <div data-aos='fade-right' className='space-y-6'>
             <Heading name={'Welcome to Online Education'} />
             <h1 className='text-5xl font-semibold text-gray-800'>Start Learning from <br /> the world&apos;s <span className='text-[#07a698] font-normal'>best insttitutions</span></h1>
             <div className='flex items-center gap-4'>

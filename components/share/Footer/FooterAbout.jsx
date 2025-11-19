@@ -5,7 +5,7 @@ import Social from './Social'
 
 function FooterAbout() {
     return (
-        <div className='space-y-8'>
+        <div data-aos='fade-up-right' data-aos-duration='1500' className='space-y-8'>
             <FooterHeading name={'get in touch!'} />
             <p className='text-gray-300 '>Fosce varius, dolor tempor interdum <br />tristiquei bibendum</p>
             <div className='space-y-4'>

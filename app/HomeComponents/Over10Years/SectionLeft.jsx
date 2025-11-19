@@ -5,7 +5,7 @@ import image2 from '@/app/assets/about-img-2.jpg'
 import { FiPhoneCall } from 'react-icons/fi'
 function SectionLeft() {
     return (
-        <div className='flex items-end gap-5'>
+        <div data-aos='fade-up-right' className='flex items-end gap-5'>
             <div>
                 <div className=''>
                     <Image

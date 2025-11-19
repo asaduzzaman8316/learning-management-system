@@ -5,7 +5,7 @@ import { FaTwitter } from 'react-icons/fa6'
 
 function SingleCard({ image, name }) {
     return (
-        <div className='bg-white w-full relative  rounded-md shadow-md '>
+        <div data-aos='fade-up-right' data-aos-duration='1500' className='bg-white w-full relative  rounded-md shadow-md '>
             <div className='overflow-hidden group h-70'>
                 <Image src={image} width={500} height={100} alt={name} className='h-auto w-auto rounded-md' />
                 <div className='h-70 w-full bg-black/50 rounded-md duration-500 transition-all  absolute top-0 opacity-0 group-hover:opacity-100 '></div>

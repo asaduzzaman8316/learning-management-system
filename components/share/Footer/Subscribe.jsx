@@ -4,7 +4,7 @@ import Button from '../Button'
 
 function Subscribe() {
     return (
-        <div className='border w-[70%] mx-auto  border-gray-600 p-22 rounded-md   flex items-center justify-between'>
+        <div  className='border w-[70%] mx-auto  border-gray-600 p-22 rounded-md   flex items-center justify-between'>
             <h1 className='text-3xl text-white font-bold'>Subscribe Our Newsletter For <br />Latest Updates</h1>
             <div className='border border-gray-600 rounded-full text-white w-[40%] flex items-center gap-2'>
                 <MdOutlineEmail className='text-xl translate-x-6'/>
