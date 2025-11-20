@@ -12,8 +12,8 @@ import LastFooter from './LastFooter'
 
 function Footer() {
     return (
-        <div className='lg:mt-16  relative  '>
-            <Image src={footerbg} width={8000} height={3000} alt='footer bg' className='h-auto w-auto absolute top-0 -z-10 left-0' />
+        <div className='  relative px-8 lg:px-0 '>
+            <Image src={footerbg} width={8000} height={3000} alt='footer bg' className='lg:h-auto object-cover lg:w-auto absolute top-0 -z-10 left-0 h-full w-full ' />
             <div className='pt-20'>
                 <Subscribe />
             </div>

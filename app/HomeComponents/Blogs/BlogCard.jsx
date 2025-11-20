@@ -5,8 +5,8 @@ import { IoFolderOutline } from 'react-icons/io5'
 
 function BlogCard({image, name}) {
   return (
-    <div data-aos='zoom-in-up' data-aos-duration='1500' className='relative '>
-      <Image src={image} width={600} height={600} alt='post image' className='h-auto rounded-xl w-auto '/>
+    <div data-aos='zoom-in-up' data-aos-duration='1500' className='relative lg:mx-0 mx-8'>
+      <Image src={image} width={600} height={600} alt='post image' className='lg:h-auto rounded-xl lg:w-auto '/>
       <div className='absolute h-full opacity-90 w-full  top-0 left-0 bg-linear-to-t from-gray-900  from-10% '></div>
       <div className='space-y-6 absolute  bottom-10 px-12'>
         <p className='bg-white w-fit text-[#07a698]  uppercase px-6 py-1 rounded-full'>learning</p>
