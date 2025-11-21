@@ -15,9 +15,9 @@ import cardImage3 from '@/app/assets/promo-img-3.png'
 
 function Explorer() {
     return (
-        <div className='relative z-10 lg:mb-20'>
+        <div className='relative z-10 '>
             <Image
-                className='w-auto h-screen lg:h-auto absolute '
+                className='w-full h-full  absolute '
                 src={explorer} width={10000} height={1000} alt='explorer image' />
             <Image
                 className='absolute top-20 left-10'
@@ -25,7 +25,7 @@ function Explorer() {
             <Image
                 className='absolute top-10 right-0'
                 src={exShape2} width={150} height={100} alt='shape2' />
-            <div className='lg:w-[70%] mx-auto  relative top-0  w-full text-center py-5 lg:py-16 px-4 '>
+            <div className='2xl:w-[70%] mx-auto  relative top-0  w-full text-center py-5 lg:py-16 px-4 '>
                 <div className='flex items-center justify-center flex-col lg:gap-10 gap-3'>
                     <Heading name={'Why Choose Us'} />
                     <Heading2 color={'text-white'} name={'Explore Yourself All Over The World'} />

@@ -8,7 +8,7 @@ import BlogCard from './BlogCard'
 function Blog() {
     return (
         <div className='py-16  mb-36'>
-            <div className='w-full lg:w-[70%]  mx-auto flex flex-col items-center justify-center gap-10'>
+            <div className='w-full 2xl:w-[70%]  mx-auto flex flex-col items-center justify-center gap-10'>
                 <Heading name={'News & Blogs'} />
                 <Heading2 name={'Latest News Updates'} color={'text-gray-800'} />
                 <div className='grid lg:grid-cols-2 top-0 items-center gap-5'>

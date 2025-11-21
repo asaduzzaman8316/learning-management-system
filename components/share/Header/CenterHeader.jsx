@@ -9,7 +9,7 @@ import { CiHeart } from 'react-icons/ci'
 import { BsCart3 } from 'react-icons/bs'
 function CenterHeader() {
   return (
-    <div className='w-full lg:w-[70%] flex items-center justify-between px-4 py-7 mx-auto'>
+    <div className='w-full 2xl:w-[70%] flex items-center justify-between px-4 py-7 mx-auto'>
       <div>
         <Image
           src={logo}

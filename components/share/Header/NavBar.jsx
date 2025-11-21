@@ -9,7 +9,7 @@ function NavBar() {
     const [open, setOpen] = useState(false)
     return (
         <div className='bg-white shadow-md sticky top-0 z-50 border-t-2 border-t-gray-200 py-4'>
-            <div className='w-full lg:w-[70%] mx-auto flex justify-between lg:justify-start items-center px-4  gap-14'>
+            <div className='w-full 2xl:w-[70%] mx-auto flex justify-between lg:justify-start items-center px-4  gap-14'>
                 <div className='text-base  text-gray-800 uppercase font-semibold flex items-center gap-3 h-full border-r-2 border-r-gray-200 pr-4'>
                     <PiCirclesFourLight className='text-[#07a698]' />
                     Categories

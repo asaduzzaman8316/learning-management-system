@@ -6,7 +6,7 @@ import CategoryShow from './CategoryShow'
 function Courses() {
   return (
     <div className='bg-[#f2f4f7]'>
-      <div className='w-full lg:w-[70%]  flex flex-col justify-center items-center gap-4 mx-auto px-4 py-16'>
+      <div className='w-full 2xl:w-[70%]  flex flex-col justify-center items-center gap-4 mx-auto px-4 py-16'>
         <Heading name={'Top Class Courses'} />
         <Heading2 name={'Explore Freatured Courses'} color={'text-black'} />
         <CategoryShow />

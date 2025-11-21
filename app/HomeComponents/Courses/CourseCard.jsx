@@ -19,7 +19,7 @@ function CourseCard({ cid , range}) {
                     <div data-aos='fade-up' data-aos-delay={`300 * ${item.id}`} key={item.id} className='bg-white p-6 rounded-2xl border border-gray-200'>
                         <div className='overflow-hidden mx-auto rounded-2xl h-fit w-fit'>
                             <Image
-                                className='rounded-2xl object-cover lg:h-auto lg:w-auto mx-auto hover:scale-105 duration-500 transition-all'
+                                className='rounded-2xl object-cover  mx-auto hover:scale-105 duration-500 transition-all'
                                 src={item.course_image} width={700} height={200} alt={item.course_title} />
                         </div>
                         <div className='my-8'>

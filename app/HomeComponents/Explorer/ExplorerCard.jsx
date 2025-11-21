@@ -5,9 +5,9 @@ function ExplorerCard({ name, para, icon, image }) {
     return (
         <div data-aos='zoom-in' data-aos-duration='1000'
          className='relative '>
-            <div className='flex flex-col items-center px-16 lg:pb-0 pb-10  gap-5 '>
+            <div className='flex flex-col items-center px-16 lg:pb-5 pb-10  gap-5 '>
                 <Image
-                    className='h-auto w-auto'
+                    className='h-auto w-auto '
                     src={image} width={150} height={150} alt='image' />
                 <h1 className='text-xl font-semibold text-white'>{name}</h1>
                 <p className='text-gray-300 font-medium'>{para}</p>

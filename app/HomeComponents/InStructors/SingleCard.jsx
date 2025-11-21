@@ -7,7 +7,7 @@ function SingleCard({ image, name }) {
     return (
         <div data-aos='fade-up-right' data-aos-duration='1500' className='bg-white w-full relative  rounded-md shadow-md '>
             <div className='overflow-hidden group lg:h-70 h-90'>
-                <Image src={image} width={400} height={100} alt={name} className='lg:h-auto lg:w-auto rounded-md' />
+                <Image src={image} width={400} height={100} alt={name} className=' rounded-md' />
                 <div className='h-70 w-full bg-black/50 rounded-md duration-500 transition-all  absolute top-0 opacity-0 group-hover:opacity-100 '></div>
                 <div className='flex items-center gap-5 absolute top-1/3 left-1/2 -translate-x-1/2'>
                     <div className='text-[#07a698] opacity-0 text-xl bg-white size-10 rounded-full flex items-center justify-center group-hover:opacity-100 cursor-pointer hover:text-white hover:bg-[#07a698] duration-500 transition-all'><FaFacebookF /></div>

@@ -9,7 +9,7 @@ import heroshape2 from '@/app/assets/hero-shape-3.png'
 function Hero() {
     return (
         <div className='bg-[#eff2f9] relative z-10' >
-            <div className=' w-full grid grid-cols-1 lg:grid-cols-2 lg:w-[70%] mx-auto px-4 items-center justify-between  py-20'>
+            <div className=' w-full grid grid-cols-1 lg:grid-cols-2 2xl:w-[70%] mx-auto px-4 items-center justify-between  py-20'>
                 <HeroLeft />
                 <HeroRight />
             </div>

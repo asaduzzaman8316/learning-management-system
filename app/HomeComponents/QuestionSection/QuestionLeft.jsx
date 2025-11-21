@@ -8,7 +8,7 @@ import faq4 from '@/app/assets/faq-thumb-4.png'
 function QuestionLeft() {
     return (
         <div data-aos='fade-up-right' data-aos-duration='1500' className='relative'>
-            <Image src={image} width={500} height={300} alt='faq image' className='h-full w-full lg:h-auto lg:w-auto rounded-2xl ' />
+            <Image src={image} width={500} height={300} alt='faq image' className='h-full w-full  rounded-2xl ' />
             <div className=' bg-white  w-fit px-12 py-8 rounded-md shadow-sm absolute bottom-20 -left-16'>
                 <h1 className='text-xl font-semibold '>Total Students</h1>
                 <div className='relative mt-2 '>

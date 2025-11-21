@@ -11,7 +11,7 @@ function CategoryShow() {
     useEffect(() => {
         function handleResize() {
             const width = window.innerWidth;
-            setCategoryRange(width > 600 ? 8 : 2);
+            setCategoryRange(width > 600 ? 7 : 2);
         }
 
         handleResize(); // run once

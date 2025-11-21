@@ -13,11 +13,11 @@ import LastFooter from './LastFooter'
 function Footer() {
     return (
         <div className='  relative px-8 lg:px-0 '>
-            <Image src={footerbg} width={8000} height={3000} alt='footer bg' className='lg:h-auto object-cover lg:w-auto absolute top-0 -z-10 left-0 h-full w-full ' />
+            <Image src={footerbg} width={8000} height={3000} alt='footer bg' className='l object-cover  absolute top-0 -z-10 left-0 h-full w-full ' />
             <div className='pt-20'>
                 <Subscribe />
             </div>
-            <div className='grid grid-cols-1 w-full lg:w-[70%] mx-auto my-16 lg:grid-cols-4 items-start justify-between gap-10'>
+            <div className='grid grid-cols-1 w-full px-4 2xl:w-[70%] mx-auto my-16 lg:grid-cols-4 items-start justify-between gap-10'>
                 <FooterAbout />
                 <div>
                     <FooterHeading name={'company info'} />
