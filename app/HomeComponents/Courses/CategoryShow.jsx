@@ -14,7 +14,7 @@ function CategoryShow() {
             setCategoryRange(width > 600 ? 7 : 2);
         }
 
-        handleResize(); // run once
+        handleResize();
         window.addEventListener("resize", handleResize);
 
         return () => window.removeEventListener("resize", handleResize);
