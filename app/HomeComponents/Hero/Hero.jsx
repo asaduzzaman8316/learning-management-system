@@ -22,7 +22,7 @@ function Hero() {
                 width={200}
                 height={500}
                 alt='hero shapr'
-                className='absolute top-1/2 right-0 lg:top-1/3 lg:right-48 animate-bounce-slow '
+                className='absolute top-1/2 right-0 lg:top-1/3  animate-bounce-slow '
             />
             <Image
                 src={heroshape2}

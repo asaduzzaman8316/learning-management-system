@@ -16,7 +16,7 @@ function HeroLeft() {
             <div className='flex items-center gap-4'>
                 <Link
                     className={`bg-[#07a698] py-3  w-fit  flex items-center gap-1 text-white font-bold px-12 cursor-pointer after:content-['']  after:w-12 after:opacity-0 hover:after:opacity-100 after:rounded-full after:h-full after:absolute after:left-0 duration-500 transition-all after:duration-500 after:transition-all relative after:bg-[#19887f] hover:after:w-full  after:-z-10 z-20 rounded-full`}
-                    href={'/'}>
+                    href={'/coures'}>
                     Get Started
                 </Link>
                 <div className='flex items-center gap-4'>
