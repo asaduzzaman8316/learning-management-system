@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/components/share/Header/Header";
 import Footer from "@/components/share/Footer/Footer";
 import NavBar from "@/components/share/Header/NavBar";
+import { Storeprovider } from "./Provider/Provider";
 
 const font = Outfit({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
@@ -19,14 +20,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${font.className} antialiased `}
-      >
-        <Header />
-        <NavBar />
-        {children}
-        <Footer />
-      </body>
+      <Storeprovider >
+        <body
+          className={`${font.className} antialiased `}
+        >
+          <Header />
+          <NavBar />
+          {children}
+          <Footer />
+        </body>
+      </Storeprovider>
     </html>
   );
 }

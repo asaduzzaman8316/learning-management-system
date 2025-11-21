@@ -13,7 +13,7 @@ async function page({ params }) {
     const courses = await res.json()
     const course = courses.find(item => item.id == cid)
     return (
-        <div className='w-full lg:w-[70%] mx-auto px-4 py-20'>
+        <div className='w-full 2xl:w-[70%] mx-auto px-4 py-20'>
             <div className=' grid grid-cols-12 gap-8'>
                 <div data-aos='fade-up-right' data-aos-duration='1500' className='border border-gray-200 rounded-2xl shadow-sm col-span-12 lg:col-span-9 p-7'>
                     <Image src={course.course_image} width={1000} height={400} alt='course image' className=' rounded-md ' />
@@ -53,7 +53,7 @@ async function page({ params }) {
                     </div>
                 </div>
                 <div data-aos='fade-up-left' data-aos-duration='1500' className=' lg:col-span-3 col-span-12'>
-                    <AddCart price={course.price} />
+                    <AddCart price={course.price} id={cid} />
                     <CourseInfo course={course} />
                 </div>
             </div>

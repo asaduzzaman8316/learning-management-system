@@ -13,6 +13,7 @@ import Blog from "./HomeComponents/Blogs/Blog";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import { ToastContainer } from "react-toastify";
 
 export default function Home() {
   useEffect(() => {
@@ -29,6 +30,7 @@ export default function Home() {
   }, [])
   return (
     <div className="overflow-x-clip">
+      <ToastContainer />
       <Hero />
       <SectionSecond />
       <Categories />

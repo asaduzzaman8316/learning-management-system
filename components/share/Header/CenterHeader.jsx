@@ -4,9 +4,7 @@ import Image from 'next/image'
 import { PiCirclesFourLight } from 'react-icons/pi'
 import Button from '../Button'
 import { IoMdSearch } from 'react-icons/io'
-import Cart from '../Cart'
-import { CiHeart } from 'react-icons/ci'
-import { BsCart3 } from 'react-icons/bs'
+import ShowCart from './ShowCart'
 function CenterHeader() {
   return (
     <div className='w-full 2xl:w-[70%] flex items-center justify-between px-4 py-7 mx-auto'>
@@ -35,8 +33,7 @@ function CenterHeader() {
       </div>
 
       <div className='flex items-center gap-4'>
-        <Cart logo={<CiHeart />} count={0} />
-        <Cart logo={<BsCart3 />} count={2} />
+        <ShowCart />
         <div className='hidden lg:block'>
           <Button py={'py-3'} name={'Start Free Trail'} />
         </div>

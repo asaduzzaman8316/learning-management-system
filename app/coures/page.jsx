@@ -5,7 +5,7 @@ import CourseCard from '../HomeComponents/Courses/CourseCard'
 
 function page() {
   return (
-    <div className='w-full lg:w-[70%] mx-auto px-4 pt-20 flex items-center justify-center flex-col gap-8'>
+    <div className='w-full 2xl:w-[70%] mx-auto px-4 pt-20 flex items-center justify-center flex-col gap-8'>
       <Heading name={'Top Class Courses'} />
       <Heading2 name={'Explore Featured Courses'} color={'text-gray-800'} />
       <div>
