@@ -53,7 +53,7 @@ async function page({ params }) {
                     </div>
                 </div>
                 <div data-aos='fade-up-left' data-aos-duration='1500' className=' lg:col-span-3 col-span-12'>
-                    <AddCart price={course.price} id={cid} />
+                    <AddCart price={course.price} id={Number(cid)} />
                     <CourseInfo course={course} />
                 </div>
             </div>
